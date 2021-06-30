@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Restaurants</title>
+</head>
+<body>
+
+    <h1> My Favorite Restaurants in Austin</h1>
+
+    <p> Austin may not be my favorite city, but it is probably the only city I can name five restaurants in. I am not much of a foodie. 
+        This site is all about my top five restaurants in Austin Texas.</p>
+
+    <h2>Here are they are, in no particular order.</h2>
+
+    <ul>
+        <li>
+            <img src="http://titayasthaicuisine.com/images/titayas-logo-alt.png" width="50">
+            <a href="http://titayasthaicuisine.com/" target="_blank">Titayas</a>
+        </li>
+        <li>
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/C74JPKGdzB8-iz5h9G6L3Q/o.jpg" width="50">
+            <a href="https://www.yelp.com/biz/phoenicia-bakery-and-deli-austin-2" target="_blank">Phoenicia Bakery and Deli</a>
+        </li>
+        <li>
+            <img src="https://secureservercdn.net/72.167.242.48/l8a.a0d.myftpupload.com/wp-content/uploads/2020/10/sazan-ramen-submark-bronze.png?time=1621525731" width="50">
+            <a href="https://sazanramen.com/" target="_blank">Sazan Ramen</a>
+        </li>
+        <li>
+            <img src="http://www.chinafamilytx.com/wp-content/uploads/2020/08/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200811151831.png" width="50">
+            <a href="http://www.chinafamilytx.com/" target="_blank">China Family</a>
+        </li>
+        <li>
+            <img src="http://gotchekos.com/wp-content/uploads/2015/02/ChekosFinalLogoWithAaddress.jpg" width="50">
+            <a href="http://gotchekos.com/" target="_blank">Checkos</a>
+        </li>
+    </ul>
+    
+    <table>
+        <tr>
+            <th>Restaurant</th>
+            <th>Area of Austin</th>
+            <th>Favorite Dish</th>
+        </tr>
+        <tr>
+            <td>Titayas</td>
+            <td>North-central Austin</td>
+            <td>Pad See Ew</td>
+        </tr>
+        <tr>
+            <td>Phoenicia</td>
+            <td>North-central Austin</td>
+            <td>Lebanese Falafel Wrap</td>
+        </tr>
+        <tr>
+            <td>Sazan Ramen</td>
+            <td>North-central Austin</td>
+            <td>Ma-Yu Black Ramen</td>
+        </tr>
+        <tr>
+            <td>China Family</td>
+            <td>North-central Austin</td>
+            <td>Griddle Cooked Califlower</td>
+        </tr>
+        <tr>
+            <td>Checkos</td>
+            <td>North-central Austin</td>
+            <td>Beef Fajita Nachos and a Margarita</td>
+        </tr>
+    </table>
+
+    <h2>Where do you want to go?</h2>
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name"><br>
+
+        <p>Select any that apply: </p>
+        <label for="titayas">Titayas</label>
+        <input type="checkbox" id="titayas" name="titayas"><br>
+
+        <label for="phoenicia">Phoenicia</label>
+        <input type="checkbox" id="phoenicia" name="phoenicia"><br>
+
+        <label for="sazan">Sazan</label>
+        <input type="checkbox" id="sazan" name="sazan"><br>
+
+        <label for="china_family">China Family</label>
+        <input type="checkbox" id="china_family" name="china_family"><br>
+
+        <label for="checkos">Checkos</label>
+        <input type="checkbox" id="checkos" name="checkos"><br>
+
+        <label for="type">What is your favorite type of food?</label>
+        <select name="type" id="type">
+            <option value="thai">Thai</option>
+            <option value="mediterranean">Mediterranean</option>
+            <option value="ramen">Ramen</option>
+            <option value="szechuan">Szechuan Chinese Food</option>
+            <option value="texmex">TexMex</option>
+        </select>
+
+        <br><br>
+
+        <textarea name="bio" id="bio" cols="50" rows="7">
+            Tell me what you like to cook.
+        </textarea>
+
+        <br><br>
+        <input type="submit" value="OK Go!">
+    </form>
+
+</body>
+</html>
