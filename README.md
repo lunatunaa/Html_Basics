@@ -1,2 +1,2 @@
 # Html_Basics
-First time using html
+These are the first html files I created in the Java Immersion Class taught by Tech Talent South. 
